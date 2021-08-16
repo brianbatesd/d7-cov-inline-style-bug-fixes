@@ -11,7 +11,7 @@ table {
 
 h1, h2, h3, h5, h5, h6 {
     font-size: 100%;
-} /* Headings need parent and after selectors + > for p, ul, ol, table classes */
+} /* Headings need parent and after selectors + > for p, ul, ol, table and subsequent heading classes */
 
 ul + h2,
 ul + h3,
