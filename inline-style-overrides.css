@@ -13,6 +13,13 @@ h1, h2, h3, h5, h5, h6 {
     font-size: 100%;
 } /* Headings need parent and after selectors + > for p, ul, ol, table and subsequent heading classes */
 
+hr {
+    height: .5px;
+    border: 0;
+    background-color: #ccc;
+    margin: 2em 0;
+} /* Remove border box and adjust padding */
+
 ul + h2,
 ul + h3,
 ul + h4,
