@@ -1,9 +1,8 @@
 /* Inline style override fixes to merge with main stylesheet */
 
-.fieldset-legend { 
+.fieldset-legend, legend { 
     font-weight: bold;
-    font-size: 100%;
-} /* Form style that is currently applied to match field labels */
+} /* Match field labels on forms - Sent 10/21/2021 */
 
 table {
     border: none;
@@ -18,7 +17,7 @@ hr {
     border: 0;
     background-color: #ccc;
     margin: 2em 0;
-} /* Remove border box and adjust padding */
+} /* Remove border outline and adjust padding - Sent 10/21/2021 */
 
 ul + h2,
 ul + h3,
@@ -29,8 +28,4 @@ ol + h3,
 ol + h4,
 ol + h5 {
     margin-top: 1em;
-} /* Add padding to headings placed after unordered and ordered lists */
-
-legend {
-    font-weight: bold;
-} /* Match styling on form field labels */
+} /* Add padding to headings placed after unordered and ordered lists - Sent 10/21/2021 */
