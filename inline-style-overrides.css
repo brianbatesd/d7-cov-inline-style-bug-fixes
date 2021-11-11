@@ -1,8 +1,12 @@
 /* Inline style override fixes to merge with main stylesheet */
 
+/* Incomplete fixes */
+
 table {
     border: none;
 } /* Table header styles would be helpful */
+
+/* Active fixes */
 
 h1, h2, h3, h5, h5, h6 {
     font-size: 100%;
