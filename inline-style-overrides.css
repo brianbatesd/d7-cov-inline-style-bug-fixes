@@ -1,5 +1,11 @@
 /* Inline style override fixes to merge with main stylesheet */
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+} /* Responsive image that maintains aspect ratio */
+
 /* Incomplete fixes */
 
 table {
