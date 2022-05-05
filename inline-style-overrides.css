@@ -1,4 +1,4 @@
-/* Inline style override fixes to merge with main stylesheet */
+/* Style fixes to merge with main stylesheet */
 
 img {
     display: block;
@@ -12,7 +12,7 @@ table {
     border: none;
 } /* Table header styles would be helpful */
 
-/* Active fixes */
+/* Deployed fixes */
 
 h1, h2, h3, h5, h5, h6 {
     font-size: 100%;
